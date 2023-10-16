@@ -1,0 +1,9 @@
+The Robot has 2 IR Sensors: 'ls' and 'cs' At: 60 and  90 degrees respectively.
+(To detect the wall on its left side) 
+The conditions are such: 
+  If ls and cs are low , i.e detect no wall, then robot turn left.
+  If ls is high and cs is low, i.e, it detects the wall, then robot turn right.
+  If ls is low and cs is high, i.e, it detects the wall infront, the robot rotates to the right.
+  If ls and cs is high, i.e the robot is at a corner, it robot rotates right. 
+
+Using this algorithm the robot will follow the wall in left-right jerking motion.
